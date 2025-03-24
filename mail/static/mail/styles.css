@@ -1,0 +1,54 @@
+textarea {
+    min-height: 400px;
+}
+
+/* Style each email's div */
+.one-email,
+.opened-email {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.one-email {
+    cursor: pointer; 
+}
+
+.one-email strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style read class */
+.email-read {
+    background-color: rgb(221, 220, 220);
+}
+
+/* Style unread class */
+.email-unread {
+    background-color: white;
+}
+.email-unread:hover {
+    background-color: #f5f5f5;
+}
+
+
+.opened-email button,
+.archived-email button {
+    margin-top: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap; /* allows buttons to wrap to the next line if needed */
+}
+
+#compose-view .btn {
+    margin-top: 10px;
+}
+
+#compose-body {
+    min-height: 150px; 
+}
+
